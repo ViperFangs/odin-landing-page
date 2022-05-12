@@ -41,14 +41,44 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    height: 300px;
+    gap: 32px;
+    height: 400px;
     background-color: #1F2937;
   }
 
   .top-left-container{
       display: flex;
       flex-direction: column;
+      gap: 8px;
+  }
+
+  .top-container-title-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 350px;
+  }
+
+  .top-container-content-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .top-right-container{
+    width: 400px;
+    height: 200px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-up-button{
+    padding: 4px 24px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
   }
 
  
